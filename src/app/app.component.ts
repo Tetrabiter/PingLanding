@@ -7,7 +7,7 @@ import { LandingComponent } from './components/landing/landing.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, LandingComponent],
+  imports: [HeaderComponent, FooterComponent, LandingComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
