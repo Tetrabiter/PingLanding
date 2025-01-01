@@ -6,5 +6,20 @@ footer{
 }
 
 .buttons{
-    
+    display: flex;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 32px;
+    border: 1px solid hsl(223, 100%, 88%);
+    font-size: large;
+    background-color: white;
+    color: hsl(223, 87%, 63%);
+}
+
+.copyright p{
+    color: hsl(0, 0%, 59%);
 }

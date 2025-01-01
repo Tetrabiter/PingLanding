@@ -6,15 +6,30 @@
 }
 
 input{
-    padding: 20px;
+    padding: 20px 70px 20px 35px;
     font-size: 24px;
     border-radius: 32px;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+input[placeholder]{
+    color: hsl(223, 87%, 63%);
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
 }
 
 button{
-    padding: 20px;
+    padding: 20px 60px;
     font-size: 24px;
     border-radius: 32px;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    border: none;
+    box-shadow: 4px 6px 30px 3px rgba(125,159,245,1);
+    font-weight: 500;
 }
 
 .launching{
